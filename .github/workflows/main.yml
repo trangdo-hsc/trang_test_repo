@@ -8,8 +8,7 @@ jobs:
   my-first-action-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Says Hello World
-      - run: echo "Hello Action World..."
-
+      - name: my-step
+        run: echo "Hello World!"
 
     
